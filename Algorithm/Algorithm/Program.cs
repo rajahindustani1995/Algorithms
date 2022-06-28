@@ -13,6 +13,7 @@
                 Console.WriteLine(" 4. Bubble sort ");
                 Console.WriteLine(" 5. Merge sort ");
                 Console.WriteLine(" 6. Anagram Detection");
+                Console.WriteLine(" 7. Prime numbers in the range 0 - 1000");
 
                 Console.WriteLine(" 0. Exit");
                 Console.Write("Enter your choice : ");
@@ -53,6 +54,10 @@
                     case 6:
                         AnagramDetection anagramDetection = new AnagramDetection();
                         anagramDetection.Detection();
+                        break;
+                    case 7:
+                        PrimeNumbers primeNumbers = new PrimeNumbers();
+                        primeNumbers.Prime();
                         break;
                     case 0:
                         return;
