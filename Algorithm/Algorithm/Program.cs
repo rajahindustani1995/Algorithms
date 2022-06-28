@@ -10,6 +10,7 @@
                 Console.WriteLine("\n 1. Program to return all permutations of a string");
                 Console.WriteLine(" 2. Binary Search the word from word list ");
                 Console.WriteLine(" 3. Insertion sort ");
+                Console.WriteLine(" 4. Bubble sort ");
 
                 Console.WriteLine(" 0. Exit");
                 Console.Write("Enter your choice : ");
@@ -29,7 +30,10 @@
                         InsertionSort<int> insertionSort = new InsertionSort<int>();
                         insertionSort.Insertion();
                         break;
-
+                    case 4:
+                        BubbleSort<int> bubbleSort = new BubbleSort<int>();
+                        bubbleSort.Bubble();
+                        break;
                     case 0:
                         return;
                     default:
