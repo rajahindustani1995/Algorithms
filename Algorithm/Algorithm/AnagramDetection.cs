@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Algorithm
-{
+{ 
     internal class AnagramDetection
     {
         public void Detection()
